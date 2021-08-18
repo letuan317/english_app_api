@@ -2,6 +2,13 @@
   "date": "2021-8-17",
   "quotes": [
     {
+      "id": "bd7acbea-c1b1-46c2-aed5-3ad53abb28bc",
+      "color1": "#f72585",
+      "color2": "#3a0ca3",
+      "quote": "The crime of loving is forgetting.",
+      "author": "Maurice Chevalier"
+    },
+    {
       "id": "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
       "color1": "#0096c7",
       "color2": "#90e0ef",
@@ -14,13 +21,6 @@
       "color2": "#00b4d8",
       "quote": "Honor is not the exclusive property of any political party.",
       "author": "Herbert Hoover"
-    },
-    {
-      "id": "bd7acbea-c1b1-46c2-aed5-3ad53abb28bc",
-      "color1": "#f72585",
-      "color2": "#3a0ca3",
-      "quote": "The crime of loving is forgetting.",
-      "author": "Maurice Chevalier"
     },
     {
       "id": "bd7acbea-c1b1-46c2-aed5-3ad53abb28bd",
