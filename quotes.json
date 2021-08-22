@@ -1,1 +1,40 @@
-{"date": "2021-08-22", "quotes": [{"id": "05-bd7acbea-c1b1-46c2-aed5-3ad53abb28be", "color1": "#6b705c", "color2": "#cb997e", "quote": "Nature uses human imagination to lift her work of creation to even higher levels.", "author": "Emily Carr", "quotes": "Trees love to toss and sway; they make such happy noises."}, {"id": "01-bd7acbea-c1b1-46c2-aed5-3ad53abb28bc", "color1": "#f72585", "color2": "#3a0ca3", "quote": "The crime of loving is forgetting.", "author": "Leo Tolstoy", "quotes": "It is amazing how complete is the delusion that beauty is goodness."}, {"id": "04-bd7acbea-c1b1-46c2-aed5-3ad53abb28bd", "color1": "#3a0ca3", "color2": "#4cc9f0", "quote": "I never called my work an 'art'. It's part of show business, the business of building entertainment.", "author": "Havelock Ellis", "quotes": "Man lives by imagination."}, {"id": "03-bd7acbea-c1b1-46c2-aed5-3ad53abb28bb", "color1": "#03045e", "color2": "#00b4d8", "quote": "Honor is not the exclusive property of any political party.", "author": "Thomas Fuller", "quotes": "Choose a wife rather by your ear than your eye."}, {"id": "02-bd7acbea-c1b1-46c2-aed5-3ad53abb28ba", "color1": "#0096c7", "color2": "#90e0ef", "quote": "The most I can do for my friend is simply be his friend.", "author": "Alfred Lord Tennyson", "quotes": "Knowledge comes, but wisdom lingers."}]}
+{
+  "date": "2021-08-22",
+  "quotes": [
+    {
+      "id": "01-bd7acbea-c1b1-46c2-aed5-3ad53abb28bc",
+      "color1": "#f72585",
+      "color2": "#3a0ca3",
+      "quote": "It is amazing how complete is the delusion that beauty is goodness.",
+      "author": "Leo Tolstoy"
+    },
+    {
+      "id": "02-bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
+      "color1": "#0096c7",
+      "color2": "#90e0ef",
+      "quote": "Knowledge comes, but wisdom lingers.",
+      "author": "Alfred Lord Tennyson"
+    },
+    {
+      "id": "03-bd7acbea-c1b1-46c2-aed5-3ad53abb28bb",
+      "color1": "#03045e",
+      "color2": "#00b4d8",
+      "quote": "Choose a wife rather by your ear than your eye.",
+      "author": "Thomas Fuller"
+    },
+    {
+      "id": "04-bd7acbea-c1b1-46c2-aed5-3ad53abb28bd",
+      "color1": "#3a0ca3",
+      "color2": "#4cc9f0",
+      "quote": "Man lives by imagination.",
+      "author": "Havelock Ellis"
+    },
+    {
+      "id": "05-bd7acbea-c1b1-46c2-aed5-3ad53abb28be",
+      "color1": "#6b705c",
+      "color2": "#cb997e",
+      "quote": "Trees love to toss and sway; they make such happy noises.",
+      "author": "Emily Carr"
+    }
+  ]
+}

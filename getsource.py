@@ -10,7 +10,7 @@ from termcolor import colored, cprint
 
 import datetime
 import random
-
+import json
 
 def getDate():
     x = datetime.datetime.now()
@@ -92,27 +92,26 @@ class GetSource:
         self.driver.get(self.URL_link_quote)
         time.sleep(5)
 
-        self.quotesDB["quotes"][0]["quotes"] = self.driver.find_element_by_xpath("/html/body/main/div[1]/div[2]/div/div/div/a[1]/div").text
+        self.quotesDB["quotes"][0]["quote"] = self.driver.find_element_by_xpath("/html/body/main/div[1]/div[2]/div/div/div/a[1]/div").text
         self.quotesDB["quotes"][0]["author"] = self.driver.find_element_by_xpath("/html/body/main/div[1]/div[2]/div/div/div/a[2]").text
 
-        self.quotesDB["quotes"][1]["quotes"] = self.driver.find_element_by_xpath("/html/body/main/div[1]/div[3]/div/div/a[1]/div").text
+        self.quotesDB["quotes"][1]["quote"] = self.driver.find_element_by_xpath("/html/body/main/div[1]/div[3]/div/div/a[1]/div").text
         self.quotesDB["quotes"][1]["author"] = self.driver.find_element_by_xpath("/html/body/main/div[1]/div[3]/div/div/a[2]").text
 
-        self.quotesDB["quotes"][2]["quotes"] = self.driver.find_element_by_xpath("/html/body/main/div[1]/div[4]/div/div/a[1]/div").text
+        self.quotesDB["quotes"][2]["quote"] = self.driver.find_element_by_xpath("/html/body/main/div[1]/div[4]/div/div/a[1]/div").text
         self.quotesDB["quotes"][2]["author"] = self.driver.find_element_by_xpath("/html/body/main/div[1]/div[4]/div/div/a[2]").text
 
-        self.quotesDB["quotes"][3]["quotes"] = self.driver.find_element_by_xpath("/html/body/main/div[1]/div[5]/div/div/a[1]/div").text
+        self.quotesDB["quotes"][3]["quote"] = self.driver.find_element_by_xpath("/html/body/main/div[1]/div[5]/div/div/a[1]/div").text
         self.quotesDB["quotes"][3]["author"] = self.driver.find_element_by_xpath("/html/body/main/div[1]/div[5]/div/div/a[2]").text
 
-        self.quotesDB["quotes"][4]["quotes"] = self.driver.find_element_by_xpath("/html/body/main/div[1]/div[7]/div/div/a[1]/div").text
+        self.quotesDB["quotes"][4]["quote"] = self.driver.find_element_by_xpath("/html/body/main/div[1]/div[7]/div/div/a[1]/div").text
         self.quotesDB["quotes"][4]["author"] = self.driver.find_element_by_xpath("/html/body/main/div[1]/div[7]/div/div/a[2]").text
 
         random.shuffle(self.quotesDB["quotes"])
 
-        print(self.quotesDB)
-
         write_json("quotes.json",self.quotesDB)
         
+        print(json.dumps(self.quotesDB, indent=1))
 
 if __name__ == "__main__":
     gs = GetSource()
